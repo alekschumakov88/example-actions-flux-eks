@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: aws-example-octodex
+      app: aws-example-octodex
   replicas: 1
   strategy:
     rollingUpdate:
